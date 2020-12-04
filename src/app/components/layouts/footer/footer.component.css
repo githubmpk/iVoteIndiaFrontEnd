@@ -1,0 +1,19 @@
+.custom-toolbar {
+    background-color: darkblue;
+    padding: 0 5px;
+    height: 10vh; 
+    width: 100vw;   
+  }
+  
+  .disclaimer-text {
+      padding-left: 40%;
+  }
+
+  
+ .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }

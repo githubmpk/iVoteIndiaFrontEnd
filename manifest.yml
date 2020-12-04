@@ -1,0 +1,7 @@
+---
+applications :
+- name: "ivoteIndiaFrontend"
+  path : "dist/ivoteIndiaFrontend"
+  memory : 256M
+  buildpack :
+  - "https://github.com/cloudfoundry/staticfile-buildpack.git"

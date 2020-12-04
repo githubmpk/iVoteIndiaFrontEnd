@@ -1,0 +1,55 @@
+/* .custom-toolbar {
+    background-color: darkblue;
+     padding: 0 0px; 
+    height: 10vh;    
+  }
+
+  .header-caption {
+      padding-left: 30%;
+  }
+
+  .header-text {
+      font-size: 40px;
+  } */
+
+  #branding {
+    text-align: center;
+    align-items: left;
+}
+#leftButton {
+    height: 42px;
+    vertical-align: middle;
+    align-items: center;
+    margin-top: 2px;
+}
+
+img.branding {
+    padding: 0px !important;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 75px;
+    width: 171px;
+    outline: none;
+}
+
+#topNav,
+#navBar {
+    border: 0px !important;
+    padding: 0px !important;
+    width: 100vw;
+    height: 5vw;
+}
+#topNav {
+    background-color: #214086;
+    color: white;
+}
+#leftNavPanel {
+     background: white;
+     color: black;
+    vertical-align: middle;
+}
+
+#midNavPanel {
+    padding-left: 15px;
+}
+ 
