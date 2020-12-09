@@ -17,6 +17,9 @@ import { ResetcredentialsComponent } from './components/resetcredentials/resetcr
 import { RegistrationconfirmationComponent } from './components/registrationconfirmation/registrationconfirmation.component';
 import { ResetcredentialconfirmationComponent } from './components/resetcredentialconfirmation/resetcredentialconfirmation.component';
 import { UpdateprofileComponent } from './components/updateprofile/updateprofile.component';
+import { EballotComponent } from './components/eballot/eballot.component';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import { EballotconfirmationComponent } from './components/eballotconfirmation/eballotconfirmation.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +32,9 @@ import { UpdateprofileComponent } from './components/updateprofile/updateprofile
     ResetcredentialsComponent,
     RegistrationconfirmationComponent,
     ResetcredentialconfirmationComponent,
-    UpdateprofileComponent
+    UpdateprofileComponent,
+    EballotComponent,
+    EballotconfirmationComponent
   ],
   imports: [
     BrowserModule,
@@ -39,7 +44,8 @@ import { UpdateprofileComponent } from './components/updateprofile/updateprofile
     MatInputModule,
     MatCardModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatCheckboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,42 @@
+<div style="height: 55vh;">
+    <div class="form_container">
+        <form style="height: 50vh;">
+           <header style="text-align: center;">Welcome to E-Ballot</header>
+            <p class="paragraphStyles">Your profile is registered to constituency XXXXXX</p>
+            <p class="paragraphStyles">Proceed for voting by selecting your choice</p>
+            <p class="paragraphStyles">By selecting you agree to terms and conditions of EC of India</p>
+            <br>
+            <!-- <br>
+            <a [routerLink]="['/eballot']" style="align-items: center; padding-left: 375px;">Click here to update</a> -->
+           <div style="justify-content: center; padding-left: 300px;">
+            <table style="align-content: center;">
+                    <tr>
+                        <td>Candidate</td>
+                        <td>Party</td>
+                        <td>Symbol</td>
+                        <td style="width: 100px; align-items: center; text-align: center;">Select</td>
+                    </tr>
+                    <tr>
+                        <td>Candidate 1</td>
+                        <td>Party 1</td>
+                        <td>Img_1</td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>Candidate 2</td>
+                        <td>Party 2</td>
+                        <td>Img_2</td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>Candidate 3</td>
+                        <td>Party 3</td>
+                        <td>Img_3</td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+            </table>           
+        </div>
+        <button value="Login" (click)="eBallotSubmission()">Submit my vote</button>
+        </form>
+     </div>
+    </div>
