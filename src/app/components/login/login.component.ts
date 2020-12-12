@@ -18,18 +18,19 @@ export class LoginComponent implements OnInit {
            Validators.required,
            Validators.minLength(6)
         ])),
-        passwd: new FormControl("", this.passwordvalidation)
+        passwd: new FormControl("", this.passwordvalidation)        
      });
   }
+
   passwordvalidation(formcontrol) {
      if (formcontrol.value.length < 5) {
         return {"passwd" : true};
      }
   }
-  onClickSubmit(data) {
+  onClickSubmit(data) {     
      console.log(data.uname);
      if (data.uname == "systemadmin" && data.passwd == "admin123") {
-        alert("Login Successful");
+      //   alert("Login Successful");
         this.router.navigate(['home'])
      } else {
        alert("Login failure, please enter valid user id and password");

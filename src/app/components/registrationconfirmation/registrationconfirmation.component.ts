@@ -13,8 +13,8 @@ export class RegistrationconfirmationComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  backtoLogin() {
-    this.router.navigate(['login']);
+  backtoHome() {
+    this.router.navigate(['home']);
   }
 
 }

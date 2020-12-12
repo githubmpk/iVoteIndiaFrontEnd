@@ -18,7 +18,7 @@ export class UpdateprofileComponent implements OnInit {
   }
 
   towelcome() {
-    this.router.navigate(['login']);
+    this.router.navigate(['home']);
   }
 
 }
