@@ -8,12 +8,14 @@ import { Router } from '@angular/router';
 })
 export class EballotconfirmationComponent implements OnInit {
 
+  today: number = Date.now();
+
   constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
 
-  backtoLogin() {
+  backtoHome() {
     this.router.navigate(['login']);
   }
 

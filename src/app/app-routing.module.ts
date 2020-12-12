@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { EballotComponent } from './components/eballot/eballot.component';
+import { EballotcloseComponent } from './components/eballotclose/eballotclose.component';
 import { EballotconfirmationComponent } from './components/eballotconfirmation/eballotconfirmation.component';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
@@ -51,6 +52,10 @@ const routes: Routes = [
   {
     path: 'eballotconfirmation',
     component: EballotconfirmationComponent
+  },
+  {
+    path: 'eballotclose',
+    component: EballotcloseComponent
   }
 ];
 @NgModule({

@@ -20,6 +20,7 @@ import { UpdateprofileComponent } from './components/updateprofile/updateprofile
 import { EballotComponent } from './components/eballot/eballot.component';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import { EballotconfirmationComponent } from './components/eballotconfirmation/eballotconfirmation.component';
+import { EballotcloseComponent } from './components/eballotclose/eballotclose.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { EballotconfirmationComponent } from './components/eballotconfirmation/e
     ResetcredentialconfirmationComponent,
     UpdateprofileComponent,
     EballotComponent,
-    EballotconfirmationComponent
+    EballotconfirmationComponent,
+    EballotcloseComponent
   ],
   imports: [
     BrowserModule,

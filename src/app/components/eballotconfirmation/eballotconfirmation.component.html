@@ -1,12 +1,13 @@
 <div style="height: 55vh;">
     <div class="form_container">
         <form>
-           <header style="text-align: center;">E-vote recored successfully</header>
-            <p class="paragraphStyles">Be proud for making our nation strong ! You are the true hero.</p>
-            <p class="paragraphStyles">Have a good day.</p>
-            <p class="paragraphStyles">Thank you !</p>   
-            
-            <button value="Login" (click)="backtoLogin()">Home</button>
+                <header style="text-align: center;">E-vote Successful</header>
+                <p class="paragraphStyles"> Your polling recorded on {{today | date:'medium'}}</p>
+                <p class="paragraphStyles">For security reasons, please logout from your application</p>
+                <p class="paragraphStyles">Thank you !</p>  
+                <!-- <button value="Home" (click)="backtoHome()">Home</button>
+                <br> -->
+                <button value="Home" (click)="backtoHome()">Logout</button>
         </form>
      </div>
     </div>
