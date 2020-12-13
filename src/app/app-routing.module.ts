@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { EIdviewComponent } from './components/e-idview/e-idview.component';
 import { EballotComponent } from './components/eballot/eballot.component';
 import { EballotcloseComponent } from './components/eballotclose/eballotclose.component';
 import { EballotconfirmationComponent } from './components/eballotconfirmation/eballotconfirmation.component';
@@ -56,6 +57,10 @@ const routes: Routes = [
   {
     path: 'eballotclose',
     component: EballotcloseComponent
+  },
+  {
+    path: 'e-idview',
+    component: EIdviewComponent
   }
 ];
 @NgModule({

@@ -21,6 +21,7 @@ import { EballotComponent } from './components/eballot/eballot.component';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import { EballotconfirmationComponent } from './components/eballotconfirmation/eballotconfirmation.component';
 import { EballotcloseComponent } from './components/eballotclose/eballotclose.component';
+import { EIdviewComponent } from './components/e-idview/e-idview.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { EballotcloseComponent } from './components/eballotclose/eballotclose.co
     UpdateprofileComponent,
     EballotComponent,
     EballotconfirmationComponent,
-    EballotcloseComponent
+    EballotcloseComponent,
+    EIdviewComponent
   ],
   imports: [
     BrowserModule,
