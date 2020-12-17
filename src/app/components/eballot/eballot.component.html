@@ -1,6 +1,6 @@
 <div style="height: 55vh;">
     <div class="form_container">
-        <form style="height: 72vh;">
+        <form [formGroup]="eballotform" formControlName="inputValue" [disabled]="!inputValue" style="height: 72vh;">
            <header style="text-align: center;">Welcome to E-Ballot</header>
             <p class="paragraphStyles">Your profile is registered to constituency XXXXXX</p>
             <p class="paragraphStyles">Proceed for voting by selecting your choice</p>
@@ -20,25 +20,25 @@
                         <td>Candidate 1</td>
                         <td>Party 1</td>
                         <td>Img_1</td>
-                        <td><input type="checkbox"></td>
+                        <td><input type="radio"></td>
                     </tr>
                     <tr>
                         <td>Candidate 2</td>
                         <td>Party 2</td>
                         <td>Img_2</td>
-                        <td><input type="checkbox"></td>
+                        <td><input type="radio"></td>
                     </tr>
                     <tr>
                         <td>Candidate 3</td>
                         <td>Party 3</td>
                         <td>Img_3</td>
-                        <td><input type="checkbox"></td>
+                        <td><input type="radio"></td>
                     </tr>
             </table>           
         </div>
         <label style="font-size: 15px; font-weight: bold;">Please enter OTP sent to your registered mobile number</label>
         <input type="text" style="width: 80px;"  name="uname" formControlName="uname">
-        <button value="Login" (click)="eBallotSubmission()">Submit my vote</button>
+        <button value="Login" (click)="eBallotSubmission()">Cast my vote</button>
         </form>
      </div>
     </div>

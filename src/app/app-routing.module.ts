@@ -4,8 +4,10 @@ import { EIdviewComponent } from './components/e-idview/e-idview.component';
 import { EballotComponent } from './components/eballot/eballot.component';
 import { EballotcloseComponent } from './components/eballotclose/eballotclose.component';
 import { EballotconfirmationComponent } from './components/eballotconfirmation/eballotconfirmation.component';
+import { FingerprintreaderComponent } from './components/fingerprintreader/fingerprintreader.component';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
+import { QrcodereaderComponent } from './components/qrcodereader/qrcodereader.component';
 import { RegistrationComponent } from './components/registration/registration.component';
 import { RegistrationconfirmationComponent } from './components/registrationconfirmation/registrationconfirmation.component';
 import { ResetcredentialconfirmationComponent } from './components/resetcredentialconfirmation/resetcredentialconfirmation.component';
@@ -61,6 +63,14 @@ const routes: Routes = [
   {
     path: 'e-idview',
     component: EIdviewComponent
+  },
+  {
+    path: 'qrcodereader',
+    component: QrcodereaderComponent
+  },
+  {
+    path: 'fingerprintreader',
+    component: FingerprintreaderComponent
   }
 ];
 @NgModule({

@@ -22,6 +22,8 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import { EballotconfirmationComponent } from './components/eballotconfirmation/eballotconfirmation.component';
 import { EballotcloseComponent } from './components/eballotclose/eballotclose.component';
 import { EIdviewComponent } from './components/e-idview/e-idview.component';
+import { FingerprintreaderComponent } from './components/fingerprintreader/fingerprintreader.component';
+import { QrcodereaderComponent } from './components/qrcodereader/qrcodereader.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { EIdviewComponent } from './components/e-idview/e-idview.component';
     EballotComponent,
     EballotconfirmationComponent,
     EballotcloseComponent,
-    EIdviewComponent
+    EIdviewComponent,
+    FingerprintreaderComponent,
+    QrcodereaderComponent
   ],
   imports: [
     BrowserModule,
